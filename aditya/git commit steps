@@ -1,0 +1,5 @@
+git clone https://github.com/adi-coding25/final-year.git
+git add .
+git commit -m "my commit" 
+git remote set-url origin git@github.com:adi-coding25/final-year.git
+git push origin -u
