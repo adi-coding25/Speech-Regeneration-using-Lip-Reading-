@@ -23,6 +23,14 @@ class GUI(Frame):
             
         self.submitButton = Button(master, text="Play A Video", command=buttonClick1)
         self.submitButton.grid()
+         
+        def buttonClick2():
+           sys.exit("Bye")
+
+        self.submitButton = Button(master, text="Exit", command=buttonClick2)
+        self.submitButton.grid()
+           
+        
 
 if __name__ == "__main__":
     guiFrame = GUI()    
