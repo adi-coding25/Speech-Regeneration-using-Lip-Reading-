@@ -1,9 +1,15 @@
 # importing libraries 
 import cv2
 import numpy as np
+from tkinter import Tk     # from tkinter import Tk for Python 3.x
+from tkinter.filedialog import askopenfilename
+
+Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+filename = askopenfilename() # show an "Open" dialog box and return the path to the selected file
+
 
 # Create a VideoCapture object and read from input file 
-cap = cv2.VideoCapture('sample.mp4')
+cap = cv2.VideoCapture(filename)
 
 # Check if camera opened successfully 
 if (cap.isOpened() == False):
