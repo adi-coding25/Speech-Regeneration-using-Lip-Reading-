@@ -1,0 +1,11 @@
+*.pkl
+*.pt
+*.pyc
+*.save
+__pycache__
+*.tar
+.vc
+.gitattributes
+*.pth
+.idea
+.idea/
