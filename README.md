@@ -1,2 +1,2 @@
 # final-year
-The BS Sem 8 Thesis project.
+The BE Sem 8 Thesis project.
