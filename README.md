@@ -1,2 +1,2 @@
 # final-year
-The BE Computer Engineering Semester 8 Thesis project.
+Speech Regenration using Lip Reading, a BE Computer Engineering Semester 8 Thesis project
