@@ -1,2 +1,2 @@
 # final-year
-The BE Sem 8 Thesis project.
+The BE Computer Engineering Semester 8 Thesis project.
